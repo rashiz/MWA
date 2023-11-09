@@ -1,0 +1,75 @@
+body {
+    font-family: "Lato", 'Times New Roman', Times, serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 25%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color:#f1f1f1 ;
+    overflow-x: hidden;
+    padding-top: 120px;
+    z-index: 0;
+  }
+  
+  .sidenav a {
+    padding: 20px 10px 10px ;
+    padding-left:130px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #464c59;
+    display: block;
+    
+  }
+  .logo {
+    padding: 5px; /* Adjust the padding as needed */
+    background-color: #f1f1f1; /* Background color for the company name */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure it's above the sidenav */
+  }
+  .logo a{
+     
+      color:#464c59;
+      padding-top: 1px;
+      position: relative;
+      
+  
+  
+  }
+  
+  .sidenav a:hover {
+    color: #373c47;
+    font-size:30px;
+    font-weight:bold;
+    
+  }
+  body {
+    background-color:#cfcfcf;
+  }
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  .can {
+    padding-left: 520px;
+    padding-top: 80px;
+
+  }
+  #canvas{
+    border:2px  rgb(11, 0, 45);
+    width: 600px;
+    height: 600px;
+    background-color: #f1f1f1;
+    
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
